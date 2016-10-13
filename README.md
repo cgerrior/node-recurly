@@ -8,6 +8,10 @@ Installation
 ===============
 
 	git clone https://github.com/cgerrior/node-recurly.git
+	
+or you can install with NPM
+
+	npm install https://github.com/cgerrior/node-recurly.git --save
 
 add a config file to your project that has contents similar to:
 
