@@ -179,6 +179,20 @@ https://dev.recurly.com/docs/list-subscriptions
 
 	recurly.subscriptions.postpone(uuid, nextRenewalDate, callback) 
 
+Subscription Usage
+===============
+https://dev.recurly.com/docs/list-add-ons-usage
+
+	recurly.usage.list(uuid, addOnCode, billingStatus, callback)
+
+	recurly.usage.log(uuid, addOnCode, details, callback)
+
+	recurly.usage.get(uuid, addOnCode, usageId, callback)
+
+	recurly.usage.update(uuid, addOnCode, usageId, details, callback)
+
+    recurly.usage.remove(uuid, addOnCode, usageId, callback)
+
 Transactions
 ===============
 https://dev.recurly.com/docs/list-transactions
